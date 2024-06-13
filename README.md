@@ -14,7 +14,7 @@
 
 ## 🤔 O que é este projeto
 
-Este projeto consiste em um desafio entre Equipes da Formação DEV da [Cod3r](https://www.cod3r.com.br) turma 2024, todos requisitos foram previamente definidos e seguem replicados abaixo como referência para o desenvolvimento da equipe:
+Este projeto consiste em um desafio entre Equipes da Formação DEV da [Cod3r](https://www.cod3r.com.br) turma **2024**, todos requisitos foram previamente definidos e seguem replicados abaixo como referência para o desenvolvimento da equipe:
 
 ## 🪜 Etapa 1 - Manipulação Registros
 > Dica: Desenvolva essa etapa executando o código diretamente pelo terminal, sem interface gráfica.
@@ -49,7 +49,7 @@ Este projeto consiste em um desafio entre Equipes da Formação DEV da [Cod3r](h
 
 ## 🆘 Materiais de apoio sugeridos
 
-## Cursos da Formação sugeridos:
+### 🗒️ Cursos da Formação sugeridos:
 > Obs: Não é necessário ter feito todos os cursos para participar do projeto, mas se houverem dúvidas, esses cursos são um bom ponto de consulta.
 
 - Fundamentos.DEV > Trilha Git e GitHub > Git e Github Básico
@@ -67,7 +67,7 @@ Este projeto consiste em um desafio entre Equipes da Formação DEV da [Cod3r](h
 - [Conceitos Essenciais: O Básico de HTTP](https://www.youtube.com/watch?v=CXzbUwK6lc8)
 - [Backend limpo](https://www.youtube.com/watch?v=5p5sE62bBVs)
 
-### Blog da Formação
+### 💬 Blog da Formação
 - [Aprendendo a lidar com erros](https://blog.formacao.dev/aprendendo-a-lidar-com-erros/)
 - [Instalando o PostgreSQL no Windows](https://blog.formacao.dev/instalando-o-postgresql-no-windows/)
 - [Como armazenar senhas de usuários](https://blog.formacao.dev/como-armazenar-senhas-de-usuarios/)
@@ -75,10 +75,29 @@ Este projeto consiste em um desafio entre Equipes da Formação DEV da [Cod3r](h
 - [O que é o arquivo .gitignore](https://blog.formacao.dev/o-que-e-o-arquivo-gitignore/)
 - [Validações com o pacote validator](https://blog.formacao.dev/validacoes-com-o-pacote-validator/)
 
-## Referências
+## 📖 Referências
 A interface desse projeto foi implementada a partir de um projeto do [Frontend Mentor](https://www.frontendmentor.io/)
 
+## 🧰 Ferramentas utilizadas no desenvolvimento do projeto
+- [VSCode](https://code.visualstudio.com)
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
+## ⚙️ Tecnologias usadas no projeto
+- [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)](https://www.w3schools.com/html/)
+- [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)](https://www.w3schools.com/css/default.asp)
+- [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)](https://www.w3schools.com/js/default.asp)
+
+## 🧑‍💻 Formação da Equipe 🚀 Rocket
+- 💻 [Alan Cezar](github.com/alanccezar) - ⭐
+- 💻 [Antonio Pina](github.com/)
+- 💻 [Daniel Fernandes](github.com/danielferlim)
+- 💻 [Marcelo Campos](github.com/marcelocmedeiros)
+- 👂 [Fernando Scotti](github.com/fernandoscottinunes)
+- 👂 [Carlos Henrique](github.com/)
+- 👂 [Danilo Gomes](github.com/danilogmoura)
+- 👂 [Davidson Espindola](github.com/)
+
+<!--
 ## 💻 Como rodar este projeto
 Para rodar o projeto basta das dois cliques no arquivo *index.html* uma vez que a pasta do projeto esteja aberta no sistema de arquivos do seu sistema operacional.
 
@@ -108,9 +127,9 @@ Será necessário que um banco de dados no sistema X seja criado e preenchido co
 Uma vez que a aplicação esteja rodando, você pode clicar nos círculos coloridos que são mostrados na página para alterar a cor de fundo da página. A cor será alterada de acordo com o botão que você pressionar.
 
 ## ⚙️ Tecnologias usadas no projeto
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
+- [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)](https://www.w3schools.com/html/)
+- [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)](https://www.w3schools.com/css/default.asp)
+- [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)](https://www.w3schools.com/js/default.asp)
 
 ## 📔 Features do projeto
 - 5 botões com cores diferentes que alteram a cor de fundo da página
@@ -147,7 +166,7 @@ Não temos dependências no projeto.
 - 👂 [Carlos Henrique](github.com/alanccezar)
 - 👂 [Danilo Gomes](github.com/alanccezar)
 - 👂 [Davidson Espindola](github.com/alanccezar)
-
+-->
 <!--
 ## 🆘 Precisa de ajuda?
 Você pode contatar o Alan (mantenedor do projeto) em alan@financetec.com.br ou entre em contato pelas redes sociais:
