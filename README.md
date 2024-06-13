@@ -158,7 +158,7 @@ Não temos dependências no projeto.
 [Clique aqui](./CONTRIBUTING.md) para as ver as diretrizes de contribuição
 
 ## 🧑‍💻 Formação da Equipe 🚀 Rocket
-- 💻 [Alan Cezar](https://github.com/alanccezar) - ⭐
+- 💻 [Alan Cezar](https://github.com/alanccezar) ⭐
 - 💻 [Antonio Pina](https://github.com/alanccezar)
 - 💻 [Daniel Fernandes](https://github.com/alanccezar)
 - 💻 [Marcelo Campos](https://github.com/marcelocmedeiros)
