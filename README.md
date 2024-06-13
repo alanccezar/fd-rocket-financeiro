@@ -88,14 +88,14 @@ A interface desse projeto foi implementada a partir de um projeto do [Frontend M
 - [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)](https://www.w3schools.com/js/default.asp)
 
 ## 🧑‍💻 Formação da Equipe 🚀 Rocket
-- 💻 [Alan Cezar](github.com/alanccezar) - ⭐
-- 💻 [Antonio Pina](github.com/)
-- 💻 [Daniel Fernandes](github.com/danielferlim)
-- 💻 [Marcelo Campos](github.com/marcelocmedeiros)
-- 👂 [Fernando Scotti](github.com/fernandoscottinunes)
-- 👂 [Carlos Henrique](github.com/)
-- 👂 [Danilo Gomes](github.com/danilogmoura)
-- 👂 [Davidson Espindola](github.com/)
+- 💻 [Alan Cezar](https://github.com/alanccezar) - ⭐
+- 💻 [Antonio Pina](https://github.com/)
+- 💻 [Daniel Fernandes](https://github.com/danielferlim)
+- 💻 [Marcelo Campos](https://github.com/marcelocmedeiros)
+- 👂 [Fernando Scotti](https://github.com/fernandoscottinunes)
+- 👂 [Carlos Henrique](https://github.com/)
+- 👂 [Danilo Gomes](https://github.com/danilogmoura)
+- 👂 [Davidson Espindola](https://github.com/)
 
 <!--
 ## 💻 Como rodar este projeto
@@ -158,14 +158,14 @@ Não temos dependências no projeto.
 [Clique aqui](./CONTRIBUTING.md) para as ver as diretrizes de contribuição
 
 ## 🧑‍💻 Formação da Equipe 🚀 Rocket
-- 💻 [Alan Cezar](github.com/alanccezar) - ⭐
-- 💻 [Antonio Pina](github.com/alanccezar)
-- 💻 [Daniel Fernandes](github.com/alanccezar)
-- 💻 [Marcelo Campos](github.com/marcelocmedeiros)
-- 👂 [Fernando Scotti](github.com/alanccezar)
-- 👂 [Carlos Henrique](github.com/alanccezar)
-- 👂 [Danilo Gomes](github.com/alanccezar)
-- 👂 [Davidson Espindola](github.com/alanccezar)
+- 💻 [Alan Cezar](https://github.com/alanccezar) - ⭐
+- 💻 [Antonio Pina](https://github.com/alanccezar)
+- 💻 [Daniel Fernandes](https://github.com/alanccezar)
+- 💻 [Marcelo Campos](https://github.com/marcelocmedeiros)
+- 👂 [Fernando Scotti](https://github.com/alanccezar)
+- 👂 [Carlos Henrique](https://github.com/alanccezar)
+- 👂 [Danilo Gomes](https://github.com/alanccezar)
+- 👂 [Davidson Espindola](https://github.com/alanccezar)
 -->
 <!--
 ## 🆘 Precisa de ajuda?
