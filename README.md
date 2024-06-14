@@ -89,7 +89,7 @@ A interface desse projeto foi implementada a partir de um projeto do [Frontend M
 
 ## 🧑‍💻 Formação da Equipe 🚀 Rocket
 - 💻 [Alan Cezar](https://github.com/alanccezar) ⭐
-- 💻 [Antonio Pina](https://github.com/)
+- 💻 [Antonio Pina](https://github.com/AntonioDeveloper)
 - 💻 [Daniel Fernandes](https://github.com/danielferlim)
 - 💻 [Marcelo Campos](https://github.com/marcelocmedeiros)
 - 👂 [Fernando Scotti](https://github.com/fernandoscottinunes)
@@ -159,13 +159,13 @@ Não temos dependências no projeto.
 
 ## 🧑‍💻 Formação da Equipe 🚀 Rocket
 - 💻 [Alan Cezar](https://github.com/alanccezar) ⭐
-- 💻 [Antonio Pina](https://github.com/alanccezar)
-- 💻 [Daniel Fernandes](https://github.com/alanccezar)
+- 💻 [Antonio Pina](https://github.com/AntonioDeveloper)
+- 💻 [Daniel Fernandes](https://github.com/danielferlim)
 - 💻 [Marcelo Campos](https://github.com/marcelocmedeiros)
-- 👂 [Fernando Scotti](https://github.com/alanccezar)
-- 👂 [Carlos Henrique](https://github.com/alanccezar)
-- 👂 [Danilo Gomes](https://github.com/alanccezar)
-- 👂 [Davidson Espindola](https://github.com/alanccezar)
+- 👂 [Fernando Scotti](https://github.com/fernandoscottinunes)
+- 👂 [Carlos Henrique](https://github.com/)
+- 👂 [Danilo Gomes](https://github.com/danilogmoura)
+- 👂 [Davidson Espindola](https://github.com/)
 -->
 <!--
 ## 🆘 Precisa de ajuda?
