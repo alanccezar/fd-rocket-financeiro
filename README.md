@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Tela Inicial](../images/fd-rocket-financeiro-banner.gif)
+  ![Tela Inicial](./images/fd-rocket-financeiro-banner.gif)
  
 </div>
 
