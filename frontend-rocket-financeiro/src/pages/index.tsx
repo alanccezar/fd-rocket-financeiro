@@ -9,7 +9,7 @@ export default function Login() {
           <input type="email" placeholder="Email" required className="mb-2 pl-2" />
           <input type="password" placeholder="Senha" required className="mb-2 pl-2" />
           {/* <input type="submit" value="Entrar" className="bg-slate-800 text-white py-2 px-2 rounded cursor-pointer" /> */}
-          <Link href="/summary" className="bg-slate-800 text-white text-center py-2 px-2 rounded cursor-pointer">Entrar</Link>
+          <Link href="/home" className="bg-slate-800 text-white text-center py-2 px-2 rounded cursor-pointer">Entrar</Link>
         </form>
         <p className="text-white">
           Não tem cadastro? <Link href="/signin">clique aqui</Link>
