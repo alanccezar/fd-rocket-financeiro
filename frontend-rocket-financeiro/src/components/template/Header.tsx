@@ -8,14 +8,14 @@ interface Header {
 
 export default function Header(props: Header) {
   return (
-    <header className="w-full h-1/6 flex">
-      <div className="flex flex-col">
-        <h1 className="text-white">
+    <header className="w-full h-1/6 flex justify-center">
+      <div className="flex flex-col w-2/5 justify-center">
+        <h1 className="text-white text-2xl font-bold">
           {props.titulo}
         </h1>
-        <h4 className="text-white">{props.notifications}</h4>
+        <h4 className="font-thin text-slate-400">{props.notifications}</h4>
       </div>
-      <div className="">
+      <div className="w-1/4 flex items-center justify-around">
         <Filter />
         <AddNewRegister />
       </div>
