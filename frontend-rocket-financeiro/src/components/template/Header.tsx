@@ -2,7 +2,7 @@ import AddNewRegister from "./AddNewRegister";
 import Filter from "./Filter";
 
 interface Header {
-  titulo: string;
+  titulo?: string;
   notifications?: string;
 }
 

@@ -1,4 +1,5 @@
 import Content from "./Content";
+import Header from "./Header";
 import MainMenu from "./MainMenu";
 
 interface PaginaProps {
@@ -16,7 +17,10 @@ export default function Pagina(props: PaginaProps) {
       className="w-screen h-screen flex"
     >
       <MainMenu />
-      <Content titulo={props.titulo} notifications={props.notifications} />
+      <Content titulo={props.titulo} notifications={props.notifications}>
+        <Header titulo={props.titulo} notifications={props.notifications} />
+        {props.children}
+      </Content>
     </main>
   )
 }
