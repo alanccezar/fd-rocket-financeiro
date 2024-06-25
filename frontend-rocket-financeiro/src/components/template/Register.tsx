@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Register() {
   return (
     <div id="table" className="flex flex-col w-[65%]">
-      <Link href="/registerDetails" className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
+      <Link href={{ pathname: "/registerDetails", query: { id: "#Q5LMD96", date: "23 Jun 2024", type: "receita", description: "Salário", value: "R$ 3.000,00", status: "Consolidado" } }} className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
         <div id="left-infos" className="flex w-2/5 justify-between">
           <span id="id" className="text-white font-bold">#Q5LMD96</span>
           <span id="data" className="text-slate-400">23 Jun 2024</span>
@@ -20,7 +20,7 @@ export default function Register() {
         </div>
       </Link>
 
-      <Link href="/registerDetails" className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
+      <Link href={{ pathname: "/registerDetails", query: { id: "#ACJCKLF", date: "22 Jun 2024", type: "Despesa", description: "Luz", value: "R$ 105,22", status: "Consolidado" } }} className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
         <div id="left-infos" className="flex w-2/5 justify-between">
           <span id="id" className="text-white font-bold">#ACJCKLF</span>
           <span id="data" className="text-slate-400">22 Jun 2024</span>
