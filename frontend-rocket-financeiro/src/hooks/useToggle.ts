@@ -4,7 +4,7 @@ export default function useToggle(value: boolean) {
   const [active, setActive] = useState(value ?? false);
 
   function toggleActive() {
-    setActive(true);
+    setActive(!active);
   }
 
   const r: [boolean, () => void] = [active, toggleActive];
