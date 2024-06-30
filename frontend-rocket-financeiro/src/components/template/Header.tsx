@@ -1,12 +1,19 @@
+import useToggle from "@/hooks/useToggle";
 import AddNewRegister from "./AddNewRegister";
 import Filter from "./Filter";
+
 
 interface Header {
   titulo?: string;
   notifications?: string;
+  activate: boolean;
+  toggleActive: () => void;
 }
 
 export default function Header(props: Header) {
+
+  //const [activate, setActive] = useToggle(false);
+
   return (
     <header className="w-full h-1/6 flex justify-center">
       <div className="flex flex-col w-2/5 justify-center">
@@ -17,7 +24,7 @@ export default function Header(props: Header) {
       </div>
       <div className="w-1/4 flex items-center justify-around">
         <Filter />
-        <AddNewRegister />
+        <AddNewRegister activate={props.activate} toggleActive={props.toggleActive} />
       </div>
     </header>
   )

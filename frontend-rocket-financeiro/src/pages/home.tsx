@@ -1,4 +1,3 @@
-import Content from "@/components/template/Content";
 import Pagina from "@/components/template/Pagina";
 import RegistersTable from "@/components/template/RegistersTable";
 
