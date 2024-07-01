@@ -2,12 +2,11 @@ import { IconChevronRight, IconCircleFilled, IconTrendingDown, IconTrendingUp } 
 import Link from "next/link";
 import registers from "../../data/registers.json";
 
-console.log(registers);
-
 export default function Register() {
+  const registersArray = registers ?? localStorage.getItem("registers");
   return (
     <div id="table" className="flex flex-col w-[65%]">
-      {registers.map((reg) => {
+      {registersArray.map((reg) => {
         return (
           <Link key={reg.id} href={{ pathname: "/registerDetails", query: { id: reg.id, date: reg.date, type: reg.type, description: reg.description, value: reg.value, status: reg.status } }} className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
             <div id="left-infos" className="flex w-2/5 justify-between">
