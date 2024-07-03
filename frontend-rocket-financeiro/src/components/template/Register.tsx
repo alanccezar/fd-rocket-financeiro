@@ -1,12 +1,25 @@
 import { IconChevronRight, IconCircleFilled, IconTrendingDown, IconTrendingUp } from "@tabler/icons-react";
 import Link from "next/link";
 import registers from "../../data/registers.json";
+import { useEffect, useState } from "react";
 
 export default function Register() {
-  const registersArray = registers ?? localStorage.getItem("registers");
+
+  const [registersArr, setRegistersArr] = useState(registers);
+
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const localStorageRegisters = localStorage.getItem("registers");
+      if (localStorageRegisters) {
+        setRegistersArr(JSON.parse(localStorageRegisters));
+      }
+    }
+  }, []);
+  console.log(registersArr)
   return (
     <div id="table" className="flex flex-col w-[65%]">
-      {registersArray.map((reg) => {
+      {registersArr.map((reg: any) => {
         return (
           <Link key={reg.id} href={{ pathname: "/registerDetails", query: { id: reg.id, date: reg.date, type: reg.type, description: reg.description, value: reg.value, status: reg.status } }} className="w-full flex justify-between bg-slate-800 rounded py-4 px-2 mb-4">
             <div id="left-infos" className="flex w-2/5 justify-between">
