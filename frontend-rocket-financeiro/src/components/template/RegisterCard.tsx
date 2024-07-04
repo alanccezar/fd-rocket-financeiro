@@ -65,6 +65,7 @@ export default function RegisterCard(props: RegisterCardProps) {
     const findLocalStorageReg = localStorageRegisters?.findIndex((r: any) => r.id === id);
     formDataObj = formDataObj;
     localStorageRegisters[findLocalStorageReg] = formDataObj;
+    localStorage.setItem("registers", JSON.stringify(localStorageRegisters));
 
     console.log("NEW LS", localStorageRegisters);
   }
