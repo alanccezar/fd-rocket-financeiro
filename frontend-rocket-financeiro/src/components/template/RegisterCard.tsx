@@ -1,4 +1,5 @@
 import { IconCircleFilled, IconTrendingDown, IconTrendingUp } from "@tabler/icons-react";
+import { useEffect, useState } from "react";
 
 interface RegisterCardProps {
   id: any,
@@ -12,28 +13,61 @@ interface RegisterCardProps {
 
 export default function RegisterCard(props: RegisterCardProps) {
 
+  const [newDescription, setNewDescription] = useState("");
+  const [newType, setNewType] = useState("");
+  const [newValue, setNewValue] = useState(0);
+
+  function handleDescriptionChange(e: any) {
+    setNewDescription(e.target?.value);
+  }
+
+  function handleTypeChange(e: any) {
+    setNewType(e.target?.value);
+  }
+
+  function handleValueChange(e: any) {
+    setNewValue(e.target?.value);
+  }
+
+  useEffect(() => {
+    console.log("Description", newDescription, "Type", newType, "Value", newValue);
+  }, [newDescription, newType, newValue]);
+
   let localStorageRegisters: any = localStorage.getItem("registers")
 
-  if (localStorageRegisters) {
+  if (typeof localStorageRegisters !== undefined) {
     localStorageRegisters = JSON.parse(localStorageRegisters);
   } else {
     return null;
   }
 
-  function editRegister(id: string) {
-    const choosenRegister = localStorageRegisters?.filter((r: any) => r.id === id)
-    return choosenRegister;
+  let formDataObj: {};
+
+  if (document.forms[1]) {
+    formDataObj = {
+      id: props.id,
+      date: Date.now(),
+      description: (document.forms[1][0] as HTMLInputElement).value,
+      type: (document.forms[1][1] as HTMLInputElement).value,
+      value: (document.forms[1][2] as HTMLInputElement).value,
+      status: "Consolidado",
+    }
+  } else {
+    formDataObj = {};
   }
 
-  console.log("CHOOSEN REG", editRegister("#B3D5339"));
+  let choosenRegister: {};
 
-  const formDataObj = {
-    type: (document.forms[1][0] as HTMLInputElement).value,
-    description: (document.forms[1][1] as HTMLInputElement).value,
-    value: (document.forms[1][2] as HTMLInputElement).value,
-    status: (document.forms[1][3] as HTMLInputElement).value,
+  function editRegister(e: any, id: string) {
+    e.preventDefault();
+    choosenRegister = localStorageRegisters?.filter((r: any) => r.id === id);
+
+    const findLocalStorageReg = localStorageRegisters?.findIndex((r: any) => r.id === id);
+    formDataObj = formDataObj;
+    localStorageRegisters[findLocalStorageReg] = formDataObj;
+
+    console.log("NEW LS", localStorageRegisters);
   }
-
 
   return (
     <div className="bg-slate-800 rounded py-4 mt-4 flex p-2 flex-col">
@@ -87,7 +121,7 @@ export default function RegisterCard(props: RegisterCardProps) {
               <div className="w-full flex justify-between">
                 <div className="flex flex-col w-1/6 justify-between">
                   <h1 className="font-bold">{props.id}</h1>
-                  <input type="text" placeholder={props.description} className="font-bold text-slate-400 text-2xl" />
+                  <input type="text" placeholder={props.description} className="font-bold text-slate-400 text-2xl" onChange={handleDescriptionChange} />
                 </div>
                 <div className="flex flex-col w-1/6">
                   <span className="text-slate-400 text-sm">Status do Registro</span>
@@ -103,7 +137,7 @@ export default function RegisterCard(props: RegisterCardProps) {
                 </div>
                 <div className="flex flex-col w-1/3">
                   <label className="text-slate-400 text-sm">Tipo Registro</label>
-                  <input type="text" className="font-bold text-slate-400" placeholder={props.type} />
+                  <input type="text" className="font-bold text-slate-400" placeholder={props.type} onChange={handleTypeChange} />
                   {/* <span className="font-bold"> {props.type === "Receita"
                     ?
                     (
@@ -121,12 +155,12 @@ export default function RegisterCard(props: RegisterCardProps) {
                 </div>
                 <div className="flex flex-col w-1/3">
                   <label className="text-slate-400 text-sm">Valor Registro</label>
-                  <input className="font-bold text-slate-400" placeholder={props.value} />
+                  <input className="font-bold text-slate-400" placeholder={props.value} onChange={handleValueChange} />
                 </div>
               </div>
 
               <div className="w-full flex mt-10">
-                <button className="px-4 py-1 rounded-full bg-purple-600" >Salvar</button>
+                <button className="px-4 py-1 rounded-full bg-purple-600" onClick={(e) => editRegister(e, props.id)}>Salvar</button>
                 <button className="px-4 py-1 rounded-full bg-red-600" >Excluir</button>
               </div>
             </form>
