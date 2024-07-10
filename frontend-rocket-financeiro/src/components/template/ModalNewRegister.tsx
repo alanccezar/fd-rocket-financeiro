@@ -21,9 +21,9 @@ export default function ModalNewRegister(props: ModalNewRegisterProps) {
 
     const formDataObj = {
       id: generateIdCode(),
-      date: Date.now().toString(),
-      type: (document.forms[1][0] as HTMLInputElement).value,
       description: (document.forms[1][1] as HTMLInputElement).value,
+      type: (document.forms[1][0] as HTMLInputElement).value,
+      date: Date.now().toString(),
       value: (document.forms[1][2] as HTMLInputElement).value,
       status: (document.forms[1][3] as HTMLInputElement).value,
     }

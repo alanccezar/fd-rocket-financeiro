@@ -22,5 +22,21 @@
     "date": "24 Jun 2024",
     "value": "R$ 90,00",
     "status": "consolidado"
+  },
+  {
+    "id": "#KABPOC",
+    "description": "Job 1",
+    "type": "Receita",
+    "date": "1720473729231",
+    "value": "2500",
+    "status": "Consolidado"
+  },
+  {
+    "id": "#CGFJAK",
+    "description": "Vidros",
+    "type": "Despesa",
+    "date": "1720475666225",
+    "value": "20",
+    "status": "consolidado"
   }
 ]
